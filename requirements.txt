@@ -1,0 +1,43 @@
+# DeligenX — Python dependencies
+# Python 3.11 required
+
+# ── Core framework ─────────────────────────────────────────────────────────
+crewai>=1.14.0,<2.0.0
+pydantic>=2.7.0,<3.0.0
+pydantic-settings>=2.3.0,<3.0.0
+python-dotenv>=1.0.0
+
+# ── LLM ────────────────────────────────────────────────────────────────────
+google-generativeai>=0.7.0
+
+# ── Embeddings (offline — set TRANSFORMERS_OFFLINE=1) ──────────────────────
+sentence-transformers>=3.0.0
+torch>=2.3.0
+
+# ── Vector database ─────────────────────────────────────────────────────────
+chromadb>=0.5.0
+
+# ── Relational database ──────────────────────────────────────────────────────
+SQLAlchemy>=2.0.0
+
+# ── Financial / market data ──────────────────────────────────────────────────
+yfinance>=0.2.40
+
+# ── HTTP ─────────────────────────────────────────────────────────────────────
+requests>=2.31.0
+
+# ── HTML / PDF parsing ───────────────────────────────────────────────────────
+beautifulsoup4>=4.12.0
+lxml>=5.2.0
+pypdf>=4.2.0
+
+# ── Document generation (Agent 5) ───────────────────────────────────────────
+python-docx>=1.1.0
+python-pptx>=0.6.23
+
+# ── Sentiment (Agent 3) ──────────────────────────────────────────────────────
+vaderSentiment>=3.3.2
+
+# ── Testing ──────────────────────────────────────────────────────────────────
+pytest>=8.2.0
+pytest-cov>=5.0.0

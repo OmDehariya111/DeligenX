@@ -1,0 +1,48 @@
+# Python environments
+my_env/
+venv/
+env/
+.env
+.venv
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Pytest / Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Project-Specific Data & Generated Files
+# We ignore the contents of the data folders, but keep the folders themselves if needed
+data/cache/*
+data/db/*
+data/chromadb/*
+data/chroma_db/*
+data/logs/*
+data/outputs/*
+
+# Keep the directory structure by tracking .gitkeep files (optional)
+!data/cache/.gitkeep
+!data/db/.gitkeep
+!data/chromadb/.gitkeep
+!data/logs/.gitkeep
+!data/outputs/.gitkeep
+
+# Temporary scripts or files
+scratch*.py
+check_*.py
+get_schema.py
+*.log
+
+# others files and folder in this folder
+prompts/
+docs/
